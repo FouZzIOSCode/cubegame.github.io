@@ -1,98 +1,229 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>FouZzCODER - The Cube</title>
-  <meta name="viewport" content="width=device-width,height=device-height,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0"><link rel="stylesheet" href="./style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Protected Page</title>
 </head>
 <body>
+    <div id="passwordForm">
+        <h2>Please enter the password to access the page:</h2>
+        <input type="password" id="passwordInput">
+        <button onclick="checkPassword()">Submit</button>
+    </div>
 
-<div class="ui">
+    <div id="content" style="display:none;">
+        <!-- Your protected content goes here -->
+        <h1>PC ANSWER</h1>
+        <h2>✅Part 10✅</h2>
+        <p>1.</p>
+        <p>1. c.ចុច New =>យក Folder</p>
+        <p>2. b.ចុច File => New => Presentation</p>
+        <p>3. C: Untitled google slides</p>
+        <p>2.</p>
+        <p>1. b.ចុច Theme => Change theme => Themes</p>
+        <p>2. b.ចម្លើយ A</p>
+        <p>3. b.ចុច New slide with layout</p>
+        <p>3.</p>
+        <p>1.b. answer c</p>
+        <p>2.a. Share ឯកសារ</p>
+        <p>3.a. មាន​សិទ្ធិ​មើល​បាន មាន​សិទ្ធិ comment បាន និង​មាន​សិទ្ធិ​កែ​ប្រែ​បាន</p>
+        <p>4.</p>
+        <p>1. b. Advanced Option</p>
+        <p>2. b. អ្នក​ប្រើប្រាស់​ទាំង​អស់​នៅ​លើ​បណ្តាញ​គ្មាន​សិទ្ធិ (Search) រក​ឯកសារ​នេះ​បាន​ទេ</p>
+        <p>3. B: Advanced</p>
+        <p>5.</p>
+        <p>1.c</p>
+        <p>2.b</p>
+        <p>3.b.បាន </p>
+        <p>6.</p>
+        <p>1: B: Google docs</p>
+        <p>2: A: Google sheets</p>
+        <p>3: A: https://drive.google.com</p>
+        <p>7.</p>
+        <p>1. c. Align Right (Ctrl+Shift+R)</p>
+        <p>2.a. Untitled document</p>
+        <p>3. B: Font</p>
+        <p>8.</p>
+        <p>1. a. Insert => Table</p>
+        <p>2. b. Background Color</p>
+        <p>3. b. Insert => Image => Choose an image to upload</p>
+        <p>9.</p>
+        <p>1. a.កណ្តុរខាងស្តាំ</p>
+        <p>2. C: OK</p>
+        <p>3. C.ចំនុចសញ្ញាពីរជ្រុងធំ</p>
+        <p>10</p>
+        <p>1. a.ចុច => new => Google sheets</p>
+        <p>2. B: មិនអាចកែរប្រែបាន</p>
+        <p>3. a.សម្រាប់បង្កើតឬបន្ថែម sheets ថ្មី</p>
+        <h2>✅Part 9✅</h2>
+        <h3>1</h3>
+        <ol>
+            <li>c. ស្រាល (ដើម្បីងាយស្រួលមើល)</li>
+            <li>b. 42pt ឬ 44pt</li>
+            <li>a. ត្រឹមត្រូវ</li>
+        </ol>
+        <h3>2</h3>
+        <ol>
+            <li>b. Design</li>
+            <li>c. Slide Master</li>
+            <li>a. *.potx</li>
+        </ol>
+        <h3>3</h3>
+        <ol>
+            <li>a. Transition</li>
+            <li>b. Animation</li>
+            <li>b. មិនត្រឹមត្រូវ</li>
+        </ol>
+        <h3>4</h3>
+        <ol>
+            <li>c. Home</li>
+            <li>c. Home</li>
+            <li>a. ត្រឹមត្រូវ</li>
+        </ol>
+        <h3>5</h3>
+        <ol>
+            <li>c. File</li>
+            <li>b. Design</li>
+            <li>a. ត្រឹមត្រូវ</li>
+        </ol>
+        <h3>6</h3>
+        <ol>
+            <li>b. កំណត់រាល់ស្លាយទាំងអស់អោយមានចលនាដូចគ្នា</li>
+            <li>b. ៤ ប្រភេទ</li>
+            <li>a. ត្រឹមត្រូវ</li>
+        </ol>
+        <h3>7</h3>
+        <ol>
+            <li>c. Export</li>
+            <li>c. *.ppsx</li>
+            <li>b. មិនត្រឹមត្រូវ</li>
+        </ol>
+        <h3>8</h3>
+        <ol>
+            <li>c. ដាក់រូបភាព និងអក្សរអោយច្រើនតាមដែលអាចធ្វើបាន</li>
+            <li>b. មិនចេញតាមលំដាប់</li>
+            <li>a. ត្រឹមត្រូវ</li>
+        </ol>
+        <h2>✅Part 8✅</h2>
+        <h3>1</h3>
+        <ol>
+            <li>c. ការកំណត់ទម្រង់លក្ខណៈនៃទិន្នន័យជាលេខដែលបង្ហាញក្នុង Excel។</li>
+            <li>b. 11/1/2016</li>
+            <li>a. Text</li>
+            <li>a. លទ្ធផលដែលបង្ហាញពេលដែលលក្ខខណ្ឌពិត</li>
+            <li>a. បង្ហាញទិន្នន័យដោយផ្អែកលើលក្ខខណ្ឌ</li>
+        </ol>
+        <h3>2</h3>
+        <ol>
+            <li>b. =if(A7<18, “អាចបោះឆ្នោតបាន”, “មិន​អាច​បោះ​ឆ្នោត​បាន​ទេ”)</li>
+            <li>a. =if(B2<=12, “ពេលរសៀល”, “ពេលព្រឹក”)</li>
+            <li>b. ថ្ងៃទី៤ខែធ្នូឆ្នាំ2016</li>
+        </ol>
+        <h3>3</h3>
+        <ol>
+            <li>b. ប្រើសំរាប់កំណត់ឲ្យជួរដេកឬជួរឈរនៅនឹងឬឈប់ស្ងៀម។</li>
+            <li>a. Freeze panes, Freeze Top Row, Freeze First Column</li>
+            <li>b. View</li>
+        </ol>
+        <h3>4</h3>
+        <ol>
+            <li>a. ពិត</li>
+            <li>c. Data</li>
+            <li>a. Whole Number5.</li>
+        </ol>
+        <h3>5</h3>
+        <ol>
+            <li>b. DDD-DD-MMM-YY</li>
+            <li>a. #,##0.00 រៀល</li>
+            <li>b.ជ្រើសរើស​កន្លែង​ដែល​យើង​ចង់ Format រួចចុច កណ្តុរ​ស្តាំ យក​ពាក្យ Format Cell</li>
+        </ol>
+        <h3>6</h3>
+        <ol>
+            <li>c. =Rank</li>
+            <li>a. រកចំណាត់ថ្នាក់នៃក្រឡា A2 ធៀបនឹង ក្រឡា A1 រហូតដល់ A20</li>
+            <li>b. =if(C15>=8, “ល្អ”, if(C15>=5, “បង្គួរ”, “ខ្សោយ”)</li>
+        </ol>
+        <h3>7</h3>
+        <ol>
+            <li>c. Home</li>
+            <li>c. ដាក់​លក្ខខណ្ឌ កំណត់ពណ៌អក្សរ កំណត់​ទម្រង់​អក្សរ គូសចំណាំ</li>
+            <li>ពិត</li>
+        </ol>
+        <h3>8</h3>
+        <ol>
+            <li>a. ទាញយកទិន្នន័យ</li>
+            <li>c. =StuName!AD43</li>
+            <li>=Lookup(Lookup_Value, Lookup_Vector, [Result_Vector])</li>
+        </ol>
+        <h3>9</h3>
+        <ol>
+            <li>b. ពិត</li>
+            <li>c. Data</li>
+            <li>b. មិនពិត
+        <h3>10 Final</h3>
+        <ol>
+            <li>a. លក្ខខណ្ឌ, ចាត់ថ្នាក់, ទាញយក</li>
+            <li>a. $12.00</li>
+            <li>c. Protect Sheet</li>
+        </ol>
+        <h2>✅PART 7✅</h2>
+        <h3>1</h3>
+        <ol>
+            <li>a. រូបរាងផ្សេងៗ ដែលគេប្រើសម្រាប់តុបតែង ឬបង្កើតជាប្លុកផ្សេងៗ</li>
+            <li>b. Insert</li>
+            <li>a. ត្រឹមត្រូវ</li>
+        </ol>
+        <h3>2</h3>
+        <ol>
+            <li>a. Ctrl</li>
+            <li>c. Shift</li>
+            <li>b. Shapes</li>
+        </ol>
+        <h3>3</h3>
+        <ol>
+            <li>a. Weight</li>
+            <li>a. ចាក់ពណ៌ផ្ទៃវត្ថុ</li>
+            <li>b. ចាក់ពណ៌ស៊ុមជុំវិញវត្ថុ</li>
+        </ol>
+        <h3>4</h3>
+        <ol>
+            <li>b. Insert</li>
+            <li>c. Hierarchy</li>
+            <li>a. ត្រឹមត្រូវ</li>
+        </ol>
+        <h3>5</h3>
+        <ol>
+            <li>b. Format</li>
+            <li>a. បន្ថែមជួរដេក</li>
+            <li>a. ត្រឹមត្រូវ</li>
+        </ol>
+        <h3>6</h3>
+        <ol>
+            <li>b. បង្កើតជារចនាសម្ព័ន្ធ</li>
+            <li>a. ត្រឹមត្រូវ</li>
+            <li>a. ត្រឹមត្រូវ</li>
+        </ol>
+        <button onclick="logOut()">Log Out</button>
+    </div>
 
-  <div class="ui__background"></div>
+    <script>
+        function checkPassword() {
+            var password = document.getElementById("passwordInput").value;
+            // Change the password here
+            if (password === "1") {
+                document.getElementById("passwordForm").style.display = "none";
+                document.getElementById("content").style.display = "block";
+            } else {
+                alert("Incorrect password. Please try again.");
+            }
+        }
 
-  <div class="ui__game"></div>
-
-  <div class="ui__texts">
-    <h1 class="text text--title">
-      <span>THE</span>
-      <span>CUBE</span>
-    </h1>
-    <div class="text text--note">
-      Double tap to start
-    </div>
-    <div class="text text--timer">
-      0:00
-    </div>
-    <div class="text text--complete">
-      <span>Complete!</span>
-    </div>
-    <div class="text text--best-time">
-      <icon trophy></icon>
-      <span>Best Time!</span>
-    </div>
-  </div>
-
-  <div class="ui__prefs">
-    <range name="size" title="Cube Size" list="2,3,4,5"></range>
-    <range name="flip" title="Flip Type" list="Swift&nbsp;,Smooth,Bounce"></range>
-    <range name="scramble" title="Scramble Length" list="20,25,30"></range>
-    <range name="fov" title="Camera Angle" list="Ortographic,Perspective"></range>
-    <range name="theme" title="Color Scheme" list="Cube,Erno,Dust,Camo,Rain"></range>
-  </div>
-
-  <div class="ui__theme">
-    <range name="hue" title="Hue" color></range>
-    <range name="saturation" title="Saturation" color></range>
-    <range name="lightness" title="Lightness" color></range>
-  </div>
-
-  <div class="ui__stats">
-    <div class="stats" name="cube-size">
-      <i>Cube:</i><b>3x3x3</b>
-    </div>
-    <div class="stats" name="total-solves">
-      <i>Total solves:</i><b>-</b>
-    </div>
-    <div class="stats" name="best-time">
-      <i>Best time:</i><b>-</b>
-    </div>
-    <div class="stats" name="worst-time">
-      <i>Worst time:</i><b>-</b>
-    </div>
-    <div class="stats" name="average-5">
-      <i>Average of 5:</i><b>-</b>
-    </div>
-    <div class="stats" name="average-12">
-      <i>Average of 12:</i><b>-</b>
-    </div>
-    <div class="stats" name="average-25">
-      <i>Average of 25:</i><b>-</b>
-    </div>
-  </div>
-
-  <div class="ui__buttons">
-    <button class="btn btn--bl btn--stats">
-      <icon trophy></icon>
-    </button>
-    <button class="btn btn--br btn--prefs">
-      <icon settings></icon>
-    </button>
-    <button class="btn btn--bl btn--back">
-      <icon back></icon>
-    </button>
-    <button class="btn btn--br btn--theme">
-      <icon theme></icon>
-    </button>
-    <button class="btn btn--br btn--reset">
-      <icon reset></icon>
-    </button>
-  </div>
-
-</div>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/95/three.min.js'></script><script  src="./script.js"></script>
-
+        function logOut() {
+            document.getElementById("content").style.display = "none";
+            document.getElementById("passwordForm").style.display = "block";
+            document.getElementById("passwordInput").value = ""; // Clear the password input field
+        }
+    </script>
 </body>
 </html>
